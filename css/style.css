@@ -1,0 +1,180 @@
+/*Importações*/
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Monsieur+La+Doulaise&family=UnifrakturMaguntia&family=Ysabeau+SC:wght@1..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url("/img/backgrond.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-image: linear-gradient(to left, rgb(23, 43, 29) 45%, transparent );
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Ysabeau SC", static;
+    color: #FFF2E7;
+    -webkit-text-stroke: 0.25px black;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.cabecalho-menu-item:hover {
+    text-shadow: 3px 3px 3px black;
+}
+
+.conteudo {
+    background-image: linear-gradient(145deg, rgb(23, 43, 29) 5%, transparent);
+    padding: 32px;
+    padding-inline: 85px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: "UnifrakturMaguntia", static;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 64px;
+    text-shadow: 2px 3px 2px black;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: "Ysabeau SC", Static;
+    color: #FFF2E7;
+    font-weight: 200;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.conteudo-principal-link-ded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'YsaBeau SC', static;
+    font-weight: 200;
+    font-size: 14px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-link-ded:hover {
+    background-image: radial-gradient(circle, rgb(104, 18, 18) 10%, transparent 60%);
+    color: rgb(184, 46, 46);
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+    padding: 24px;
+}
+
+.conteudo-principal-imagem-titulo {
+    text-shadow: 2px 2px 3px black;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    background-image: linear-gradient(to top, rgb(23, 43, 20) 20%, transparent);
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'UnifrakturMaguntia',static;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    text-shadow: 2px 3px 2px black;
+}
+
+.conteudo-secundario-subtitulo {
+    font-family: 'Ysabeau SC', static;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.conteudo-secundario-botao {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Ysabeau SC", Static;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2f2325;
+}
+.conteudo-secundario-botao:hover {
+    background-color: rgba(236, 214, 196, 0.25);
+    color: #FFF2E7;
+}
+
+.rodape {
+    border-top: 0.04px solid #FFF2E7;
+    padding: 24px;
+    background-image: linear-gradient(to right, rgb(23, 43, 29) 35%, transparent);
+}
+
+.rodape-icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape-icone:hover {
+    background-image: linear-gradient(to left, transparent, rgba(83, 54, 211, 0.25) 35%, transparent);
+}
+
+.rodape-imagem {
+    height: 80px;
+}
+
+.rodape-titulo {
+    font-family: 'Ysabeau SC', static;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFF2E7;
+    text-shadow: 2px 3px 2px black;
+}
