@@ -10,8 +10,9 @@
 
 body {
     font-size: 100%;
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/backgrond.jpeg");
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 }
 
