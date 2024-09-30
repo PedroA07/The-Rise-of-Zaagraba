@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title> <!-- Título da Aba da Página no Navegador -->
+    <!-- Inicio Links -->
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css"> <!-- Arquivo de configuração do Estilo da Página -->
+    <script src="../js/script_formatacao-campos.js"></script> <!-- Arquivo de configuração de Mascaras de Formatação -->
+    <!-- Fim Links -->
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="../index.html"><img class="cabecalho-imagem" src="../img/logo.png" alt="logo"></a>
+    </header>
+
+    <main class="conteudo-login">
+        <div class="caixa"> <!-- Área do Formulário -->
+            <h3 class="conteudo-principal-escrito-titulo">Cadastro</h3>
+            <br>
+            <form action=""> <!-- Inicio Formulário -->
+                <form action="cadastro.php" method="post">
+                    <input type="text" name="nome" placeholder="Nome Completo">
+                    <br>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                    <br>
+                    <input type="text" name="email" placeholder="E-mail">
+                    <br><br>
+                    <fieldset class="cadastro">
+                    <input type="password" name="senha" placeholder="Senha">
+                    <br>
+                    <input type="password" name="confirmacao_senha" placeholder="Confirme sua senha">
+                    </fieldset>
+                    <br>
+                    <a class="botao" href=""><input class="conteudo-secundario-botao" type="submit" value="Cadastrar"></a>
+                </form>
+            </form> <!-- Fim Formulário -->
+        </div>
+    </main> 
+    
+    <footer class="rodape"></footer>
+        <a class="rodape-icone" href="https://discord.gg/DWu6637saq" target="_blank">
+            <img class="rodape-imagem" src="../img/discord.png" alt="Comunidade do Discord">
+            <h1 class="rodape-titulo">CONHEÇA NOSSA COMUNIDADE</h1>
+        </a>
+    </footer>
+</body>
+</html>
