@@ -15,19 +15,23 @@
         <a href="../index.html"><img class="cabecalho-imagem" src="../img/logo.png" alt="logo"></a>
     </header>
 
-    <main class="conteudo-login">
+    <main class="conteudo-cadastro">
         <div class="caixa"> <!-- Área do Formulário -->
             <h3 class="conteudo-principal-escrito-titulo">Cadastro</h3>
             <br>
             <form action=""> <!-- Inicio Formulário -->
                 <form action="cadastro.php" method="post">
+                    <label class="conteudo-secundario-subtitulo" for="nome">Nome:</label>
                     <input type="text" name="nome" placeholder="Nome Completo">
                     <br>
+                    <label class="conteudo-secundario-subtitulo" for="usuario">Usuário:</label>
                     <input type="text" name="usuario" placeholder="Usuário">
                     <br>
+                    <label class="conteudo-secundario-subtitulo" for="email">E-mail:</label>
                     <input type="text" name="email" placeholder="E-mail">
                     <br><br>
                     <fieldset class="cadastro">
+                    <legend class="cadastro-legenda">Crie sua senha</legend>
                     <input type="password" name="senha" placeholder="Senha">
                     <br>
                     <input type="password" name="confirmacao_senha" placeholder="Confirme sua senha">

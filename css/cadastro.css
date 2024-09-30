@@ -1,4 +1,4 @@
-.conteudo-login{
+.conteudo-cadastro{
     background-image: linear-gradient(145deg, rgb(23, 43, 29) 5%, transparent);
     padding: 400px;
     padding-inline: 85px;
@@ -37,7 +37,7 @@ input{
     margin-bottom: 20px;
 }
 
-.conteudo-secundario-login{
+.conteudo-secundario-cadastro{
     font-family: 'Ysabeau SC', static;
     font-weight: 400;
     font-size: 24px;
@@ -45,7 +45,7 @@ input{
     text-align: center;
     text-shadow: 1px 1px 2px black;
 }
-.conteudo-secundario-login:hover{
+.conteudo-secundario-cadastro:hover{
     color: rgba(236, 214, 196, 0.25);
 }
 
@@ -56,6 +56,9 @@ input{
 }
 
 .cadastro-legenda{
+    font-family: 'Ysabeau SC', static;
+    font-weight: 400;
+    font-size: 18px;
     border: 1px solid #FFF2E7;
     padding: 10px;
     text-align: center;
