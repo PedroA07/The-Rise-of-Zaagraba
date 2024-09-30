@@ -8,7 +8,7 @@
 .caixa{
     background-color: rgba(7, 31, 11, 0.80);
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     display: flex;
     flex-direction: column;
