@@ -5,19 +5,12 @@
     left: 50%;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    align-items: center;
     transform: translate(-50%, -50%);
     padding: 20px;
     border-radius: 20px;
 }
-h1{
-    font-family: "acuim-pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-    color: #F2E8DC;
-    text-align: center;
-}
+
 input{
     width: 100%;
     height: 40px;
@@ -26,23 +19,4 @@ input{
     outline: none;
     padding: 0 20px;
     margin-bottom: 20px;
-}
-.botao{
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 0 10px;
-    margin-bottom: 20px;
-    background-color: #7B8C86;
-    color: #011526;
-    cursor: pointer;
-    font-family: "acuim-pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-}.botao:hover{
-    background-color: #033540;
-    color: #7B8C86;
 }
