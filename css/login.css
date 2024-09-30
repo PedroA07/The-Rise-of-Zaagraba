@@ -28,3 +28,15 @@ input{
     padding: 0 20px;
     margin-bottom: 20px;
 }
+
+.conteudo-secundario-login{
+    font-family: 'Ysabeau SC', static;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+.conteudo-secundario-login:hover{
+    color: rgba(236, 214, 196, 0.25);
+}
